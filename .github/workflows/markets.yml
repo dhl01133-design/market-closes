@@ -1,0 +1,28 @@
+name: market closes
+
+on:
+  schedule:
+    - cron: "35 21 * * 1-5"   # 06:35 KST Tue–Sat, after the US close
+    - cron: "35 22 * * 1-5"   # 07:35 KST backup run, before the 08:17 briefing
+  workflow_dispatch:           # "Run workflow" button for manual runs
+
+permissions:
+  contents: write              # lets the job commit markets.json
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch closes
+        run: python fetch.py
+      - name: Commit markets.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add markets.json
+          git diff --cached --quiet || git commit -m "markets: $(date -u +%F)"
+          git push
