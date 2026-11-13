@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T02:02:37Z",
+  "updated": "2026-11-13T02:51:51Z",
   "data": {
     "nasdaq": {
       "symbol": "^IXIC",
@@ -19,18 +19,18 @@
     },
     "qld": {
       "symbol": "QLD",
-      "session_date": "2026-11-11",
-      "close": 81.83,
-      "prev_close": 78.2,
-      "change_pct": 4.64,
+      "session_date": "2026-11-12",
+      "close": 81.3,
+      "prev_close": 81.83,
+      "change_pct": -0.65,
       "final": true
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
       "session_date": "2026-11-12",
-      "close": 103.13,
-      "prev_close": 102.91,
-      "change_pct": 0.21,
+      "close": 103.18,
+      "prev_close": 103.17,
+      "change_pct": 0.01,
       "final": true
     }
   }
