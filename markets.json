@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T03:04:44Z",
+  "updated": "2026-11-18T03:49:47Z",
   "data": {
     "nasdaq": {
       "symbol": "^IXIC",
@@ -28,7 +28,7 @@
     "dxy": {
       "symbol": "DX-Y.NYB",
       "session_date": "2026-11-17",
-      "close": 103.6,
+      "close": 103.61,
       "prev_close": 103.49,
       "change_pct": 0.11,
       "final": true
