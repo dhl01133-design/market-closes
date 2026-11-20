@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-19T03:47:50Z",
+  "updated": "2026-11-20T02:30:20Z",
   "data": {
     "nasdaq": {
       "symbol": "^IXIC",
-      "session_date": "2026-11-18",
-      "close": 24429.88,
-      "prev_close": 24328.38,
-      "change_pct": 0.42,
+      "session_date": "2026-11-19",
+      "close": 23879.2,
+      "prev_close": 24429.88,
+      "change_pct": -2.25,
       "final": true
     },
     "sp500": {
       "symbol": "^GSPC",
-      "session_date": "2026-11-18",
-      "close": 7323.63,
-      "prev_close": 7340.53,
-      "change_pct": -0.23,
+      "session_date": "2026-11-19",
+      "close": 7175.83,
+      "prev_close": 7323.63,
+      "change_pct": -2.02,
       "final": true
     },
     "qld": {
       "symbol": "QLD",
-      "session_date": "2026-11-18",
-      "close": 74.51,
-      "prev_close": 73.98,
-      "change_pct": 0.72,
+      "session_date": "2026-11-19",
+      "close": 71.26,
+      "prev_close": 74.51,
+      "change_pct": -4.36,
       "final": true
     },
     "dxy": {
       "symbol": "DX-Y.NYB",
-      "session_date": "2026-11-18",
-      "close": 103.95,
-      "prev_close": 103.86,
-      "change_pct": 0.09,
+      "session_date": "2026-11-19",
+      "close": 103.91,
+      "prev_close": 103.9,
+      "change_pct": 0.01,
       "final": true
     }
   }
